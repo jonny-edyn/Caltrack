@@ -4,7 +4,6 @@ A live Streamlit webpage that reads the Caltrack Airtable base.
 
 ## Airtable base
 
-- Base ID: `appD9LwNGFQLeRwOI`
 - Tables: `Meals`, `Weigh-ins`, `Profile`
 
 ## Run locally
@@ -20,7 +19,7 @@ Create `.streamlit/secrets.toml`:
 
 ```toml
 AIRTABLE_TOKEN = "your-airtable-personal-access-token"
-AIRTABLE_BASE_ID = "appD9LwNGFQLeRwOI"
+AIRTABLE_BASE_ID = "your-airtable-base-id"
 ```
 
 Then run:
